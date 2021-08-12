@@ -1,0 +1,35 @@
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.navbar-custom{
+  padding: 15px;
+  background-color: rgb(200, 200, 200);
+}
+.navbar-brand>a{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+#navlist-border{
+  border-bottom: black solid .5px;
+}
+
+#menu-box-design{
+  background-color: rgb(200, 200, 200);
+  padding: 20px 40px 20px 40px;
+  margin-bottom: 10px;
+}
+
+#head{
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px){
+  #menu-box{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
